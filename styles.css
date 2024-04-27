@@ -1,9 +1,11 @@
+/* Reset some basic elements */
 body, html {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
 }
 
+/* Header and Footer Styling */
 header, footer {
     background-color: #333;
     color: white;
@@ -11,20 +13,29 @@ header, footer {
     padding: 1em;
 }
 
+/* Main Content Styling */
 main {
     padding: 20px;
     text-align: center;
 }
 
+/* Headings Styling */
 h1, h2 {
     color: #333;
 }
 
+/* Paragraphs Styling */
 p {
     color: #666;
 }
 
-/* Responsive styling */
+/* Responsive Image Class */
+img.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive Design Adjustments */
 @media (max-width: 600px) {
     body {
         background-color: #f4f4f4;
