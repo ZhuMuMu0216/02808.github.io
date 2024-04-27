@@ -1,11 +1,11 @@
-/* Reset some basic elements */
+/* Basic reset */
 body, html {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
 }
 
-/* Header and Footer Styling */
+/* Style for header and footer */
 header, footer {
     background-color: #333;
     color: white;
@@ -13,29 +13,30 @@ header, footer {
     padding: 1em;
 }
 
-/* Main Content Styling */
+/* Style for main content */
 main {
     padding: 20px;
     text-align: center;
 }
 
-/* Headings Styling */
+/* Styling for headings */
 h1, h2 {
     color: #333;
 }
 
-/* Paragraphs Styling */
+/* Styling for paragraphs */
 p {
     color: #666;
 }
 
-/* Responsive Image Class */
-img.responsive {
-    max-width: 100%;
+/* Responsive iframe class */
+iframe.responsive {
+    width: 100%;
     height: auto;
+    border: none;
 }
 
-/* Responsive Design Adjustments */
+/* Adjustments for smaller devices */
 @media (max-width: 600px) {
     body {
         background-color: #f4f4f4;
@@ -49,5 +50,10 @@ img.responsive {
     main {
         padding: 10px;
         font-size: 16px;
+    }
+
+    /* Adjust iframe height for mobile devices */
+    iframe.responsive {
+        height: 300px; /* Example height, you might need to adjust this */
     }
 }
