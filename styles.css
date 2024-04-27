@@ -1,11 +1,42 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
+body, html {
+    margin: 0;
     padding: 0;
-    background: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
     color: #333;
 }
 
-#vis {
-    margin-top: 20px;
+p {
+    color: #666;
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+    body {
+        background-color: #f4f4f4;
+    }
+
+    header, footer {
+        padding: 15px;
+        font-size: 18px;
+    }
+
+    main {
+        padding: 10px;
+        font-size: 16px;
+    }
 }
