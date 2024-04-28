@@ -51,9 +51,9 @@ iframe.responsive {
         padding: 10px;
         font-size: 16px;
     }
-
+ */
     /* Adjust iframe height for mobile devices */
-    iframe.responsive {
+/*     iframe.responsive {
         height: 300px; /* Example height, you might need to adjust this */
     }
 }
