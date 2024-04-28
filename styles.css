@@ -37,7 +37,7 @@ iframe.responsive {
 }
 
 /* Adjustments for smaller devices */
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
     body {
         background-color: #f4f4f4;
     }
@@ -57,3 +57,4 @@ iframe.responsive {
         height: 300px; /* Example height, you might need to adjust this */
     }
 }
+ */
