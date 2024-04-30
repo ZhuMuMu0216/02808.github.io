@@ -35,26 +35,22 @@ iframe.responsive {
     height: auto;
     border: none;
 }
-
-/* Adjustments for smaller devices */
-/* @media (max-width: 600px) {
-    body {
-        background-color: #f4f4f4;
-    }
-
-    header, footer {
-        padding: 15px;
-        font-size: 18px;
-    }
-
-    main {
-        padding: 10px;
-        font-size: 16px;
-    }
- */
-    /* Adjust iframe height for mobile devices */
-/*     iframe.responsive {
-        height: 300px; /* Example height, you might need to adjust this */
-    }
+.top-left-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
 }
- */
+
+.top-left-link a {
+    color: #000;
+    text-decoration: none;
+    font-size: 8px; /* Further reduced font size */
+    font-weight: bold; /* Bolder text */
+    display: block; /* Makes the link block level, allowing for margin below */
+    margin-bottom: 1em; /* Adds space below the link */
+}
+
+.top-left-link a:hover {
+    text-decoration: underline;
+}
