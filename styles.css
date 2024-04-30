@@ -32,9 +32,18 @@ p {
 /* Responsive iframe class */
 iframe.responsive {
     width: 100%;
-    height: auto;
+    height: auto; /* 根据内容调整高度，可以根据需要调整 */
     border: none;
+    overflow-x: auto; /* 允许在X轴方向上滚动 */
+    overflow-y: hidden; /* 隐藏Y轴方向上的滚动条 */
 }
+div.iframe-container {
+    width: 100%; /* 确保容器宽度匹配屏幕宽度 */
+    overflow-x: scroll; /* 允许水平滚动 */
+    overflow-y: hidden; /* 隐藏垂直滚动 */
+}
+
+
 .top-left-link {
     position: absolute;
     top: 0;
