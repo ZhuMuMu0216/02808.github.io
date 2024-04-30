@@ -5,20 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Site with Embedded Chart</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .iframe-container {
+          overflow-x: auto; /* 启用水平滚动条 */
+          width: 100%; /* 确保容器宽度为100% */
+        }
+        iframe {
+          width: 100%;
+          height: 1914px; /* 根据需要调整高度，并确保添加了单位px */
+          border: none;
+        }
+    </style>
 </head>
 <body>
     <div class="top-left-link">
         <a href="February.html">&#x25C0; February</a>
     </div>
     <main>
-        <section>
-            
-            <div class="iframe-container">
-                <iframe width="100%" height="1914" frameborder="0"
-            src="https://observablehq.com/embed/bd8c6ceeffbdc463@940?cells=viewof+month_1%2Cviewof+MONTH_PLOT1%2Cviewof+month_2%2Cviewof+radarChart_month%2Cviewof+month_3%2Cviewof+food%2Cviewof+month_4%2Cviewof+chartType%2Cviewof+myChart%2Cviewof+month_5%2Cviewof+doing_chart">
-            </iframe>
-            </div>
-            
+        <section class="iframe-container">
+            <iframe width="100%" height="1603" frameborder="0"
+  src="https://observablehq.com/embed/bd8c6ceeffbdc463@950?cells=viewof+month_1%2Cviewof+MONTH_PLOT1%2Cviewof+month_2%2Cviewof+radarChart_month%2Cviewof+month_3%2Cviewof+food%2Cviewof+month_4%2Cviewof+chartType%2Cviewof+myChart%2Cviewof+month_5%2Cviewof+doing_chart"></iframe>
+        </section>
     </main>
 </body>
 </html>
