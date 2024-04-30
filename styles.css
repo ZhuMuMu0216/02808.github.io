@@ -45,10 +45,10 @@ iframe.responsive {
 .top-left-link a {
     color: #000;
     text-decoration: none;
-    font-size: 8px; /* Further reduced font size */
+    font-size: 11px; /* Further reduced font size */
     font-weight: bold; /* Bolder text */
     display: block; /* Makes the link block level, allowing for margin below */
-    margin-bottom: 1em; /* Adds space below the link */
+    margin-bottom: 2em; /* Adds space below the link */
 }
 
 .top-left-link a:hover {
